@@ -168,3 +168,33 @@ footer p{
     margin: 20px 10px;
     font-size: 15px;
 }
+
+/* media */
+
+/* mobile */
+
+
+@media (max-width:688px) {
+    .banner,
+    .collection{
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+   
+}
+/* tab */
+
+
+@media (min-width:688px) and (max-width:992px) {
+    .banner, .collection{
+        grid-template-columns:repeat(2, 1fr)
+    }
+    .banner{
+        margin-bottom: 100px;
+    }
+    .logo h2{
+        margin-top: 100px;
+    }
+
+    
+}
